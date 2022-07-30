@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: _insert_value_here_
-  AWS_PROFILE: _insert_value_here_
-  AWS_REGION: _insert_value_here_
-  JWT_SECRET: _insert_value_here_
-  POSTGRES_DB: _insert_value_here_
-  POSTGRES_HOST: _insert_value_here_
-  URL: _insert_value_here_
+  AWS_BUCKET: udacity6-398713113583
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: udacity6-398713113583.cchon6ak7fcm.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
 metadata:
   name: env-config
